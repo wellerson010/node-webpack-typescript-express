@@ -18,7 +18,7 @@
     "build": "webpack --config webpack.config.js --watch",
     "nodemon": "nodemon ./dist/server.js",
     "start": "node ./dist/server.js",
-    "dev": "start npm run build && start npm run nodemon" //only windows
+    "dev": "start npm run build && start npm run nodemon"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
